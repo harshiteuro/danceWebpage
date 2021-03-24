@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box; /*removes padding and border and takes full height and width of element */
+    padding: 0;
+    
+}
+
+#navbar{
+    background-color:black;
+    padding: 10px 12px;
+    font-family: 'Anton', sans-serif;
+
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+#navbar li{
+    list-style: none; /*for removing dots*/
+}
+#navbar li a{
+    text-decoration: none; /*for remove underline from unordered list */
+    padding: 12px 25px;
+    color: yellow;
+    font-size: 1rem;
+}
+#navbar li a:hover{
+    color: gold;
+    
+}
+#introSection{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lobster', cursive;
+    justify-content: center;
+    align-items: center;
+    background: center/cover no-repeat url("/static/bg.jpg");  /*//cover for whole introSection covers the photo*/
+    height: 300px;
+    color: white;
+    font-size: 1.9rem;
+    padding: 200px;
+    background-color: red;
+}
+#sponserSection{
+   
+    font-family: 'Lobster', cursive;
+    height: 300px;
+    font-size: 2rem;
+    background-color: yellow;
+}
+#MissionSection {
+    
+    padding: 10px;
+    flex-direction: column;
+    font-family: 'Lobster', cursive;
+    height: 300px;
+    font-size: 2rem;
+    background-color: yellow;
+}
+.card{
+    
+    border-radius: 5px;
+    display: inline-block;
+    width: 30%;
+    margin: 20px 22px;
+    height: 200px;
+}
+#footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#MissionSection h3{
+    text-align: center;
+    padding-top: 10px;
+}
+#sponserSection h3{
+    text-align: center;
+    padding-top: 10px;
+}
+#card1{
+    background: center/cover no-repeat url("/static/ganesh.jpg");
+}
+#card2{
+    background: center/cover no-repeat url("/static/saroj.jpg");
+}
+#card3{
+    background: center/cover no-repeat url("/static/Remo.jpg");
+}
+#sp1{
+    background:center/cover no-repeat url("/static/patanjali.png") ;
+}
+#sp2{
+    background:center/cover no-repeat url("/static/jaguar.jpg");
+}
+#sp3{
+    background: center/cover no-repeat url("/static/parle.png");
+}
+#logo{
+    display: flex;
+    color: white;
+    padding-right: 20px;
+    height: 20px
+}
+#logo img{
+    filter: invert(1);
+    height: 30px;
+}
